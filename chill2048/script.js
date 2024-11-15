@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadRandomAudio(){
         let randomIndex = Math.floor(Math.random() * musics.length);
         let randomMusic = musics[randomIndex];
-        audioSrc.src = "http://static.alexonsager.net.s3-website-us-west-2.amazonaws.com/chill2048/audio/" + randomMusic["filename"]
+        audioSrc.src = "audio/" + randomMusic["filename"]
         audioPlayer.load();
         audioPlayer.play();
 

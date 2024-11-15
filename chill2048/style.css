@@ -7,7 +7,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
 }
 .body-f-family{
     font-family:'Roboto', Helvetica, sans-serif;
@@ -18,7 +18,7 @@
 }
 
 .lh-07{
-    line-height: 0.7;   
+    line-height: 0.7;
 }
 .h1-text-custom{
     color: #776E65;
@@ -64,10 +64,15 @@
     margin-left: 10px;
 }
 
+#volume-icon {
+    cursor: pointer;
+}
+
 #song-title {
     display: inline-block;
     padding-top: 2px;
     color: grey;
+    cursor: pointer;
 }
 
 #volume-icon {
@@ -83,6 +88,7 @@
 
 #app-info-toggle {
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 #app-info-window {
@@ -130,7 +136,7 @@
     0%{
         opacity: 0;
         transform: scale(0);
-        
+
 
     }
     100%{
